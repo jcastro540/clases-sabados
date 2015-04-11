@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,700,400);
+/*font-family: 'Roboto', sans-serif;*/
+.clase1 {
+	color: #d35400;
+}
+
+.clase1 h1 {
+	color:#8e44ad;
+}
+
+.clase1 p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+}
+
+.clase2 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #FC0303;
+}
+
+.clase2, .clase3 {
+	font-family: arial;
+}
+
+
+#id1 {
+	width: 500px;
+	height: 200px;
+	background-color: #2ecc71;
+	margin: 50px;
+	padding: 10px 10px 10px 10px;
+	border-bottom: dashed 5px #e74c3c;
+}
+
+.clase3 {
+	width: 200px;
+	height: 200px;
+	background-color: #34495e;
+	padding: 10px;
+	color: whitesmoke;
+}
+
+.azul {
+	background-color: #2980b9;
+}
+
+.clase3 a {
+	color: #2ecc71;
+	text-shadow: 1px 1px 2px #34495e;
+} 
