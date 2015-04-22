@@ -1,0 +1,65 @@
+.caja {
+	width: 200px;
+	height: 200px;
+	box-sizing:border-box;
+	border:solid 10px #34495e;
+	background-color: #2980b9;
+	color: whitesmoke;
+	margin-bottom: 20px;
+	line-height: 170px;
+	font-size: 40px;
+	text-align: center;
+	font-family: arial;
+}
+
+#cajas1 {
+	position: static;
+}
+
+#cajas2 {
+	position: relative;
+	left: 400px;
+	top: 50px;
+}
+
+#cajas3 {
+	position: absolute;
+	left:500px;
+	top:600px;
+}
+
+#cajas4 {
+	position: fixed;
+	width: 100%;
+	bottom: 5px;
+}
+
+.verde {
+	background-color: #2ecc71;
+	border: solid 10px #16a085; 
+}
+
+.morado {
+	background-color: #9b59b6;
+	border: solid 10px #8e44ad;
+}
+
+.naranja {
+	background-color: #e67e22;
+	border: solid 10px #d35400;
+}
+
+#cajas5 {
+	position: relative;
+}
+
+.caja-peque{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	background-color: #e74c3c;
+	line-height: 55px;
+	padding: 20px;
+	top: 40px;
+	left: 100%;
+}
