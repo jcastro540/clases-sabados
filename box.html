@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BOX</title>
+	<link rel="stylesheet" href="css/box.css">
+</head>
+<body>
+	<div class="contenedor">
+		<!--.caja#caja*4>{$}-->
+		<div class="caja" id="caja">1</div>
+		<div class="caja" id="caja">2</div>
+		<div class="caja" id="caja">3</div>
+		<div class="caja" id="caja">4</div>
+
+		<!--.borde*4>.box>{$}-->
+		<div class="borde">
+			<div class="box">1</div>
+		</div>
+		<div class="borde">
+			<div class="box">2</div>
+		</div>
+		<div class="borde">
+			<div class="box">3</div>
+		</div>
+		<div class="borde">
+			<div class="box">4</div>
+		</div>
+
+		<!--.pegados>.cajitas#c$*5>{$}-->
+		<div class="pegados">
+			<div class="cajitas" id="c1">1</div>
+			<div class="cajitas" id="c2">2</div>
+			<div class="cajitas" id="c3">3</div>
+			<div class="cajitas" id="c4">4</div>
+			<div class="cajitas" id="c5">5</div>
+		</div>
+
+		<!--.contenedor-triangulos>.triangulo#t$*3>{.}-->
+		<div class="contenedor-triangulos">
+			<div class="triangulo" id="t1">.</div>
+			<div class="triangulo" id="t2">.</div>
+			<div class="triangulo" id="t3">.</div>
+		</div>
+	</div>
+
+</body>
+</html>
