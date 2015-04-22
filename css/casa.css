@@ -1,0 +1,56 @@
+.casa{
+   position: relative;
+   width: 300px;
+   height: 300px;
+   border: dotted 2px gray;
+}
+
+.base {
+   width: 150px;
+   height: 150px;
+   background-color: #34495e;
+   position: absolute;
+   bottom: 0;
+   left: 70px;
+}
+
+.techo {
+   width: 0;
+   height: 0;
+   border-left: 75px solid transparent;
+   border-right: 75px solid transparent;
+   border-bottom: 150px solid red;
+   position: absolute;
+   left: 70px;
+   top: 3px;
+}
+
+.puerta {
+   width: 40px;
+   height: 70px;
+   background-color: #e67e22;
+   position: absolute;
+   bottom: 0;
+   left: 125px;
+   z-index: 2; 
+}
+
+.ventana-i {
+   width: 40px;
+   height: 40px;
+   background-color: #e67e22;
+   position: absolute;
+   top:160px;
+   left: 80px;
+   z-index: 2;
+}
+
+.ventana-der {
+   width: 40px;
+   height: 40px;
+   background-color: #e67e22;
+   position: absolute;
+   top:160px;
+   left: 168px;
+   z-index: 2;
+}
